@@ -20,20 +20,53 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-      <a href="#getting-started">Getting Started</a>
+    <li><a href="#getting-started">Getting Started</a></li>
       <ul>
-        <li><a href="#replit">Prerequisites</a></li>
+        <li><a href="#replit">Replit</a></li>
       </ul>
-    </li>
     <li><a href="#usage">Usage</a></li>
-    <ul>
-        <li><a href="#creating-a-table">Prerequisites</a></li>
-        <li><a href="#linking-tables">Prerequisites</a></li>
-     </ul>
+      <ul>
+        <li><a href="#creating-a-table">Creating a Table</a></li>
+        <li><a href="#linking-tables">Linking Tables</a></li>
+      </ul>
+    <li><a href="#features">Features</a></li>
+      <ul>
+        <li><a href="support-for-all-common-data-types">Data Type Support</a></li>
+        <li><a href="support-for-all-common-sql-statements">SQL Statement Support</a></li>
+        <li><a href="field-restraint-support">Field Restraint Support</a></li>
+        <li><a href="data-safety">Data Safety</a></li>
+        <li><a href="data-normalization-support">Data Normlaization Support</a></li>
+        <li><a href="other-features">Other Features</a></li>
+      </ul>
     <li><a href="#license">License</a></li>
   </ol>
 </details>
+## Features
 
+Below is a list of all the features provided in the `KieranSQL` module.
+
+### Support for all common data types
+
+
+
+### Support for all common SQL statements
+
+
+
+### Field Restraint Support
+
+
+
+### Data Safety
+
+
+
+
+### Data Normlaization Support
+
+
+
+### Other Features
 
 ## Getting Started
 
@@ -93,7 +126,35 @@ _For referencing expected syntax, please refer to the [Documentation](https://gi
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-<!-- LICENSE -->
+## Features
+
+Below is a list of all the features provided in the `KieranSQL` module.
+
+### Support for all common data types
+
+Support for all common data types
+
+### Support for all common SQL statements
+
+Support for all common SQL statements
+
+### Field Restraint Support
+
+Field Restraint Support
+
+### Data Safety
+
+Data Safety
+
+### Data Normlaization Support
+
+Data Normlaization Support
+
+### Other Features
+
+Other Features
+
+
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
