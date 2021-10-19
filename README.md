@@ -162,7 +162,7 @@ class People:
   LastName: String(20)
 
 with connect_to(People, commit=True, output_queries=True):  # output_queries= specifies whether to print every SQL that is constructed and executed to the console or not
-  People.InsertInto({                                       # commit= can also be disabled, which does not save changes to the database after the 'with' block
+  People.InsertInto({                                       # commit= can also be disabled, will then not save changes to the database after the 'with' block
     People.FirstName: "Person", 
     People.LastName: "One"
   })
