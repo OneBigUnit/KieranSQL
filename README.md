@@ -28,6 +28,9 @@
       <ul>
         <li><a href="#creating-a-table">Creating a Table</a></li>
         <li><a href="#linking-tables">Linking Tables</a></li>
+        <li><a href="#manipulating-tables">Manipulating Tables</a></li>
+        <li><a href="#using-optional-settings">Using Optional Settings</a></li>
+        <li><a href="#using-less-common-data-types">Using Less Common Data Types</a></li>
       </ul>
     <li><a href="#features">Features</a></li>
       <ul>
@@ -104,6 +107,94 @@ class People:
   FirstName: String(30)
   LastName: String(20)
   Nationality: Nationalities.ID  # This column declaration refers to the other created table, linking them
+```
+
+### Manipulating Tables
+
+Below is how to make SQL statements to a table:
+```
+from KieranSQL import SQLiteTable, String, Integer, connect_to
+
+@SQLiteTable()
+class People:
+  PersonID: Integer(primary_key=True)
+  FirstName: String(30)
+  LastName: String(20)
+
+with connect_to(People, commit=True):
+  People.InsertInto({
+    People.FirstName: "Person", 
+    People.LastName: "One"
+  })
+  
+  People.InsertInto({
+    People.FirstName: "Person", 
+    People.LastName: "Two"
+  })
+ 
+ People.Update({
+    People.FirstName: "Child"
+ }).Where(
+    People.LastName == "One"
+ )
+  
+  People.Delete().Where(
+    People.LastName == "Two"
+  )
+  
+  fetched_data = People.Select("*").Where(
+    People.FirstName == "Child"
+  ).Fetch()
+
+print(fetched_data)
+```
+
+### Using Optional Settings
+
+Below is how to enable optional settings, using **Key Word Arguments**:
+```
+from KieranSQL import SQLiteTable, String, Integer, connect_to
+
+@SQLiteTable(path="WhereverIWant.db")  # path= specifies which database to store the table ==> Defaults to "database.db"
+class People:
+  PersonID: Integer(primary_key=True)  # Every table must contain exactly one primary key, indicated by the primary_key= argument
+  FirstName: String(30, nullable=False)  # nullable= Ensures that a column cannot store 'NULL' fields
+  LastName: String(20)
+
+with connect_to(People, commit=True, output_queries=True):  # output_queries= specifies whether to print every SQL that is constructed and executed to the console or not
+  People.InsertInto({                                       # commit= can also be disabled, which does not save changes to the database after the 'with' block
+    People.FirstName: "Person", 
+    People.LastName: "One"
+  })
+```
+
+### Using Less Common Data Types
+
+Below shows how to use the data types `Date` and `Time` in a table:
+```
+from KieranSQL import SQLiteTable, String, Integer, Date, Time, connect_to
+from datetime import date, time  # The 'Date' and 'Time' types convert to and from these types from the python standard library,
+                                 # so more features can be used. A String can be used instead if this is not preferable
+
+@SQLiteTable(path="WhereverIWant.db")
+class People:
+  PersonID: Integer(primary_key=True)
+  FirstName: String(30)
+  LastName: String(20)
+  BirthDate: Date()
+  BedTime: Time()
+
+with connect_to(People, commit=True):
+  People.InsertInto({
+    People.FirstName: "Person", 
+    People.LastName: "One",
+    People.BirthDate: date(2002, 6, 29),
+    People.BedTime: time(22, 30)
+  })
+  
+  fetched_data = People.Select("*").Fetch()
+
+print(fetched_data)  # Prints the single-record table. BirthDate and BedTime can be retrieved from 'fetched_data' as their original types
 ```
 
 _For referencing further examples and specific syntax, see the [Documentation](https://github.com/OneBigUnit/KieranSQL/blob/b889a6dc2d85f6368f01c284fd52f7bc981edbb9/Docs/Documentation.md)_
