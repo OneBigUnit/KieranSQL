@@ -4,7 +4,7 @@
 <br/>
 <div align="center">
   <a href="https://github.com/OneBigUnit/KieranSQL">
-    <img src="../../Images/KieranSQL.png" alt="Logo" width="457" height="318">
+    <img src="../Images/KieranSQL.png" alt="Logo" width="457" height="318">
   </a>
 
   <p align="center">
