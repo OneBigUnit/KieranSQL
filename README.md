@@ -111,7 +111,7 @@ class People:
 
 ### Manipulating Tables
 
-Below is how to make SQL statements to a table:
+Below is how to send all supported SQL statements to a table:
 ```
 from KieranSQL import SQLiteTable, String, Integer, connect_to
 
