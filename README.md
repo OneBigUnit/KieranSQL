@@ -41,32 +41,7 @@
     <li><a href="#license">License</a></li>
   </ol>
 </details>
-## Features
 
-Below is a list of all the features provided in the `KieranSQL` module.
-
-### Support for all common data types
-
-
-
-### Support for all common SQL statements
-
-
-
-### Field Restraint Support
-
-
-
-### Data Safety
-
-
-
-
-### Data Normlaization Support
-
-
-
-### Other Features
 
 ## Getting Started
 
@@ -154,6 +129,7 @@ Data Normlaization Support
 
 Other Features
 
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## License
 
