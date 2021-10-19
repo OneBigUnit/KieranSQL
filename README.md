@@ -17,32 +17,32 @@
   </p>
 </div>
 
-
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li><a href="#getting-started">Getting Started</a></li>
-      <ul>
-        <li><a href="#replit">Replit</a></li>
-      </ul>
-    <li><a href="#usage-examples">Usage Examples</a></li>
-      <ul>
-        <li><a href="#creating-a-table">Creating a Table</a></li>
-        <li><a href="#linking-tables">Linking Tables</a></li>
-      </ul>
-    <li><a href="#features">Features</a></li>
-      <ul>
-        <li><a href="support-for-all-common-data-types">Data Type Support</a></li>
-        <li><a href="support-for-all-common-sql-statements">SQL Statement Support</a></li>
-        <li><a href="field-restraint-support">Field Restraint Support</a></li>
-        <li><a href="data-safety">Data Safety</a></li>
-        <li><a href="data-normalization-support">Data Normalization Support</a></li>
-        <li><a href="other-features">Other Features</a></li>
-      </ul>
-    <li><a href="#license">License</a></li>
-  </ol>
-</details>
-
+<div align="right">
+  <details>
+    <summary>Table of Contents</summary>
+    <ol>
+      <li><a href="#getting-started">Getting Started</a></li>
+        <ul>
+          <li><a href="#replit">Replit</a></li>
+        </ul>
+      <li><a href="#usage-examples">Usage Examples</a></li>
+        <ul>
+          <li><a href="#creating-a-table">Creating a Table</a></li>
+          <li><a href="#linking-tables">Linking Tables</a></li>
+        </ul>
+      <li><a href="#features">Features</a></li>
+        <ul>
+          <li><a href="support-for-all-common-data-types">Data Type Support</a></li>
+          <li><a href="support-for-all-common-sql-statements">SQL Statement Support</a></li>
+          <li><a href="field-restraint-support">Field Restraint Support</a></li>
+          <li><a href="data-safety">Data Safety</a></li>
+          <li><a href="data-normalization-support">Data Normalization Support</a></li>
+          <li><a href="other-features">Other Features</a></li>
+        </ul>
+      <li><a href="#license">License</a></li>
+    </ol>
+  </details>
+</div>
 
 ## Getting Started
 
@@ -144,6 +144,9 @@ Columns can be declared with certain restraints, such as:
 
 Tables can also be arranged into the 1st, 2nd, and 3rd Normal Forms, for data organization.
 This is largely due to `KieranSQL`'s support for foreign keys, which can link multiple tables together within a database.
+
+<br>
+
 [Find information on Data Normalization here!](https://www.relationaldbdesign.com/database-analysis/module4/first-second-third-normal-forms.php)
 
 ### Other Features
