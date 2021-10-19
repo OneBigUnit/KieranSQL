@@ -3,7 +3,7 @@
 <br/>
 <div align="center">
   <a href="https://github.com/OneBigUnit/KieranSQL">
-    <img src="Images/projectlogo.png" alt="Logo" width="80" height="80">
+    <img src="Images/KieranSQL.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">KieranSQL</h3>
@@ -11,7 +11,7 @@
   <p align="center">
     A shallow wrapper around the inbuilt SQLite3 module, to abstract away all SQL, aiming for a consistent, simple, pythonic syntax.
     <br />
-    <a href="https://github.com/OneBigUnit/KieranSQL/Docs/Documentation.md"><strong>Explore the Docs »</strong></a>
+    <a href="https://github.com/OneBigUnit/KieranSQL/blob/b889a6dc2d85f6368f01c284fd52f7bc981edbb9/Docs/Documentation.md"><strong>Explore the Docs »</strong></a>
     <br />
     <br />
   </p>
