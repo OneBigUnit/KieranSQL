@@ -1,5 +1,6 @@
 <div id="top"></div>
 
+
 <br/>
 <div align="center">
   <a href="https://github.com/OneBigUnit/KieranSQL">
@@ -24,7 +25,7 @@
       <ul>
         <li><a href="#replit">Replit</a></li>
       </ul>
-    <li><a href="#usage">Usage</a></li>
+    <li><a href="#usage-examples">Usage Examples</a></li>
       <ul>
         <li><a href="#creating-a-table">Creating a Table</a></li>
         <li><a href="#linking-tables">Linking Tables</a></li>
@@ -35,7 +36,7 @@
         <li><a href="support-for-all-common-sql-statements">SQL Statement Support</a></li>
         <li><a href="field-restraint-support">Field Restraint Support</a></li>
         <li><a href="data-safety">Data Safety</a></li>
-        <li><a href="data-normalization-support">Data Normlaization Support</a></li>
+        <li><a href="data-normalization-support">Data Normalization Support</a></li>
         <li><a href="other-features">Other Features</a></li>
       </ul>
     <li><a href="#license">License</a></li>
@@ -59,7 +60,7 @@ To run this code, follow the below instructions:
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-## Usage
+## Usage Examples
 
 Below are some examples of how to use `KieranSQL`.
 
@@ -96,7 +97,7 @@ class People:
   Nationality: Nationalities.ID
 ```
 
-_For referencing expected syntax, please refer to the [Documentation](https://github.com/OneBigUnit/KieranSQL/blob/b889a6dc2d85f6368f01c284fd52f7bc981edbb9/Docs/Documentation.md)_
+_For referencing further examples and specific syntax, see the [Documentation](https://github.com/OneBigUnit/KieranSQL/blob/b889a6dc2d85f6368f01c284fd52f7bc981edbb9/Docs/Documentation.md)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
