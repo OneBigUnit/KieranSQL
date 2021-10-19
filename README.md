@@ -80,7 +80,7 @@ class People:
 
 ### Linking tables
 
-Below is how to link two tables using **foreign keys**:
+Below is how to link two tables using a **foreign key**:
 ```
 from KieranSQL import SQLiteTable, String, Integer
 
@@ -94,7 +94,7 @@ class People:
   PersonID: Integer(primary_key=True)
   FirstName: String(30)
   LastName: String(20)
-  Nationality: Nationalities.ID
+  Nationality: Nationalities.ID  # This column declaration refers to the other created table, linking them
 ```
 
 _For referencing further examples and specific syntax, see the [Documentation](https://github.com/OneBigUnit/KieranSQL/blob/b889a6dc2d85f6368f01c284fd52f7bc981edbb9/Docs/Documentation.md)_
@@ -108,11 +108,29 @@ Below is a list of all the features provided in the `KieranSQL` module.
 
 ### Support for all common data types
 
-Support for all common data types
+`KieranSQL` has support for most common SQL data types, including:
+* Strings
+* Integers
+* Decimals
+* Booleans
+* NULL
+* Dates
+* Times
+
+_For more information on `Data Type Wrappers`, see the [Documentation](https://github.com/OneBigUnit/KieranSQL/blob/b889a6dc2d85f6368f01c284fd52f7bc981edbb9/Docs/Documentation.md)_
 
 ### Support for all common SQL statements
 
-Support for all common SQL statements
+`KieranSQL` has support for most common SQL statements, including:
+* SELECT
+* INSERT INTO
+* UPDATE
+* DELETE
+* WHERE
+
+_For more information on `SQL Statement Wrappers`, see the [Documentation](https://github.com/OneBigUnit/KieranSQL/blob/b889a6dc2d85f6368f01c284fd52f7bc981edbb9/Docs/Documentation.md)_
+
+_For more information on `Data Types`, see the [Documentation](https://github.com/OneBigUnit/KieranSQL/blob/b889a6dc2d85f6368f01c284fd52f7bc981edbb9/Docs/Documentation.md)_
 
 ### Field Restraint Support
 
