@@ -67,7 +67,7 @@ To run this code, follow the below instructions:
 
 1. Once you are viewing the project on [Replit.com](https://replit.com), you can edit any code you like
 2. All source code can be found in the `KieranSQL` directory
-3. For examples on how to use this module, see [Usage Examples](#usage)
+3. For examples on how to use this module, see [Usage Examples](#usage-examples)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
