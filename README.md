@@ -132,11 +132,11 @@ with connect_to(People, commit=True):
     People.LastName: "Two"
   })
  
- People.Update({
+  People.Update({
     People.FirstName: "Child"
- }).Where(
+  }).Where(
     People.LastName == "One"
- )
+  )
   
   People.Delete().Where(
     People.LastName == "Two"
