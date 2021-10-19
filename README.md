@@ -34,22 +34,22 @@
       </ul>
     <li><a href="#features">Features</a></li>
       <ul>
-        <li><a href="support-for-all-common-data-types">Data Type Support</a></li>
-        <li><a href="support-for-all-common-sql-statements">SQL Statement Support</a></li>
-        <li><a href="field-restraint-support">Field Restraint Support</a></li>
-        <li><a href="data-safety">Data Safety</a></li>
-        <li><a href="data-normalization-support">Data Normalization Support</a></li>
-        <li><a href="other-features">Other Features</a></li>
+        <li><a href="#support-for-all-common-data-types">Data Type Support</a></li>
+        <li><a href="#support-for-all-common-sql-statements">SQL Statement Support</a></li>
+        <li><a href="#field-restraint-support">Field Restraint Support</a></li>
+        <li><a href="#data-safety">Data Safety</a></li>
+        <li><a href="#data-normalization-support">Data Normalization Support</a></li>
+        <li><a href="#other-features">Other Features</a></li>
       </ul>
     <li><a href="#coding-techniques-i-used">Coding Techniques Used / Challenges Faced</a></li>
       <ul>
-        <li><a href="class-decorators">Class Decorators</a></li>
-        <li><a href="metaclasses">Metaclasses</a></li>
-        <li><a href="column-boolean-logic">Abstract Boolean Logic</a></li>
-        <li><a href="the-select-and-where-statements">SELECT and WHERE Statement Wrappers</a></li>
-        <li><a href="building-a-string-representation-of-a-selection">String Representation of a Table</a></li>
-        <li><a href="context-managers">Context Managers</a></li>
-        <li><a href="type-wrappers">Type Wrappers</a></li>
+        <li><a href="#class-decorators">Class Decorators</a></li>
+        <li><a href="#metaclasses">Metaclasses</a></li>
+        <li><a href="#column-boolean-logic">Abstract Boolean Logic</a></li>
+        <li><a href="#the-select-and-where-statements">SELECT and WHERE Statement Wrappers</a></li>
+        <li><a href="#building-a-string-representation-of-a-selection">String Representation of a Table</a></li>
+        <li><a href="#context-managers">Context Managers</a></li>
+        <li><a href="#type-wrappers">Type Wrappers</a></li>
       </ul>
     <li><a href="#license">License</a></li>
   </ol>
