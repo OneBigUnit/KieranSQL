@@ -117,8 +117,6 @@ Below is a list of all the features provided in the `KieranSQL` module.
 * Dates
 * Times
 
-_For more information on `Data Type Wrappers`, see the [Documentation](https://github.com/OneBigUnit/KieranSQL/blob/b889a6dc2d85f6368f01c284fd52f7bc981edbb9/Docs/Documentation.md)_
-
 ### Support for all common SQL statements
 
 `KieranSQL` has support for most common SQL statements, including:
@@ -128,25 +126,35 @@ _For more information on `Data Type Wrappers`, see the [Documentation](https://g
 * DELETE
 * WHERE
 
-_For more information on `SQL Statement Wrappers`, see the [Documentation](https://github.com/OneBigUnit/KieranSQL/blob/b889a6dc2d85f6368f01c284fd52f7bc981edbb9/Docs/Documentation.md)_
-
-_For more information on `Data Types`, see the [Documentation](https://github.com/OneBigUnit/KieranSQL/blob/b889a6dc2d85f6368f01c284fd52f7bc981edbb9/Docs/Documentation.md)_
-
 ### Field Restraint Support
 
-Field Restraint Support
+Columns can be declared with certain restraints, such as:
+* Primary Key
+* Foreign Key
+* Non-Nullable
 
 ### Data Safety
 
-Data Safety
+`KieranSQL` also attempts to keep your stored data as safe as possible, with the following features:
+* Parameterised Queries (SQL Injection Protection)
+* Optional Commits (Default Off)
+* Optional SQL Query Output (Default Off)
 
-### Data Normlaization Support
+### Data Normalization Support
 
-Data Normlaization Support
+Tables can also be arranged into the 1st, 2nd, and 3rd Normal Forms, for data organization.
+This is largely due to `KieranSQL`'s support for foreign keys, which can link multiple tables together within a database.
+[Find information on Data Normalization here!](https://www.relationaldbdesign.com/database-analysis/module4/first-second-third-normal-forms.php)
 
 ### Other Features
 
-Other Features
+`KieranSQL` also packs in other features, such as the following:
+* Table Viewing
+* Optional SQL Query Output
+* Safe from SQL Injection
+* Fully Documented and Type-Hinted Source Code, and available documentation
+
+_Any further information and details reagrding `KieranSQL` features can be found in the [Documentation](https://github.com/OneBigUnit/KieranSQL/blob/b889a6dc2d85f6368f01c284fd52f7bc981edbb9/Docs/Documentation.md)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
